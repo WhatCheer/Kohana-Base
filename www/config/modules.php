@@ -18,6 +18,7 @@ Kohana::modules(array(
 	// 'orm'         => MODPATH.'orm',        // Object Relationship Mapping
 	// 'simpleauth'  => MODPATH.'simpleauth', // Helper Classes for Auth Applications
 	// 'simpletest'  => MODPATH.'simpletest', // Alternative unit testing module
+	// 'spelling'    => MODPATH.'spelling',   // Spelling correction
 	// 'unittest'    => MODPATH.'unittest',   // Unit testing
 	// 'userguide'   => MODPATH.'userguide',  // User guide and API documentation
 	// 'whatcheer'   => MODPATH.'whatcheer',  // Bucket of scraps
