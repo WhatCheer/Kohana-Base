@@ -1,0 +1,8 @@
+- Configurable backends
+	+ PSpell
+	+ Enchant
+	+ Yahoo YQL
+		- http://developer.yahoo.com/yql/console/?q=select%20*%20from%20search.spelling%20where%20query%3D%22madnna%22
+
+- Cascading backend selection?
+- Docs

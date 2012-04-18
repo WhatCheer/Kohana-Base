@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC
+    "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN"
+    "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg.dtd">
+<html xmlns:svg='http://www.w3.org/2000/svg' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head><meta content='application/xhtml+xml;charset=utf-8' http-equiv='Content-type' /><title></title></head>
+<body>
+<h1 id='what_is_k3simpletest'>What is K3-SimpleTest</h1>
+
+<p>It is an alternative unit testing module for the Kohana 3 framework.</p>
+
+<h1 id='usage'>Usage</h1>
+
+<p>Using K3-SimpleTest is easy!</p>
+
+<h2 id='1_write_a_unit_test'>1) Write A Unit Test</h2>
+
+<p>By convention, these would live at <tt>application/tests/unit/[name.php]</tt>.</p>
+
+<p>All of the assertions from <a href='http://www.simpletest.org/'>SimpleTest</a> are available to use.</p>
+
+<p>For an example, look at <tt>tests/unit/example.php</tt> in this package.</p>
+
+<h3 id='naming_tip'>Naming Tip!</h3>
+
+<p>If you name your test method with underscores for spaces (like: <tt>test_Validates_Start_Is_Before_Or_Same_As_End</tt>) the HTML test reporter will convert those underscores into spaces, and lop off the &#8220;test&#8221; at the beginning (like: <tt>Validates Start Is Before Or Same As End</tt>)</p>
+
+<h2 id='2_setup_config'>2) Setup Config</h2>
+
+<p>Copy <tt>config/simpletest.php.example</tt> to <tt>application/config/simpletest.php</tt> and add the paths to your tests, grouping however you would like.</p>
+
+<h2 id='3_run_the_tests'>3) Run The Tests</h2>
+
+<p>To run the tests, you can either go to <tt>/simpletest/all</tt> in a browser, or run them from the command line:</p>
+
+<pre><code>php index.php --uri=&quot;/simpletest/all&quot;</code></pre>
+
+<h1 id='license'>License</h1>
+
+<p>K3-SimpleTest is licensed under MIT.</p>
+
+<p>SimpleTest (included in vendor/simpletest for your convenience) is licensed under the GPL</p>
+</body></html>

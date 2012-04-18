@@ -1,0 +1,12 @@
+<?php
+
+	return array(
+		'tests' => array(
+			'Example Tests' => array( 
+				'unit/example',
+			),
+			'More Example Tests' => array(
+				'unit/exceptional',
+			),
+		),
+	);
